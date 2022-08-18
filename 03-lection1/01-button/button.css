@@ -1,12 +1,13 @@
 .button {
     background-color: var(--grey-4);
-    width: 200px;
-    height: 40px;
     color: var(--white);
-    border: 0px;
+    border: 0;
     border-radius: 10px;
-    padding: 0;
     box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .button_primary {
@@ -20,19 +21,18 @@
 .button_alternate {
     background-color: var(--white);
     color: var(--black);
-    border: 1px solid;
+    border: 1px solid var(--grey-3);
 }
 
 .button:enabled:hover {
-    cursor: pointer;
     filter: contrast(200%);
 }
 
 .button_alternate:enabled:hover {
-    border: 2px solid;
+    border-color: var(--black);
 }
 
 .button:disabled {
     opacity: 0.63;
-    cursor: default;
+    pointer-events: none;
 }
