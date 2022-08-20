@@ -1,15 +1,23 @@
 .button {
-    background-color: var(--grey-4);
     color: var(--white);
-    border: 0;
-    border-radius: 10px;
+    border: 0;    
     box-sizing: border-box;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
     cursor: pointer;
 }
 
+.button__text {
+    font-style: normal;    
+    font-family: "Roboto";
+}
+.button_size_m {
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+}
+.button__text_size_m {
+    font-weight: 500;
+    font-size: 16px;
+}
 .button_primary {
     background-color: var(--primary);
 }
