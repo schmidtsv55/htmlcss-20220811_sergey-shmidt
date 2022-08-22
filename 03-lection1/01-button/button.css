@@ -3,21 +3,16 @@
     border: 0;    
     box-sizing: border-box;
     cursor: pointer;
-}
-
-.button__text {
-    font-style: normal;    
-    font-family: "Roboto";
-}
-.button_size_m {
-    width: 189px;
     height: 48px;
     border-radius: 8px;
-}
-.button__text_size_m {
+    font-style: normal;    
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
+    line-height: 19px;
+    
 }
+
 .button_primary {
     background-color: var(--primary);
 }
