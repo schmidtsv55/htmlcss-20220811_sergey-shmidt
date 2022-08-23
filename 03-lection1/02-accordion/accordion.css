@@ -3,11 +3,14 @@
     border-radius: 8px;
     border: 1px solid var(--grey-3);    
     font-family: 'Inter', sans-serif;
+    padding-left: 32px;
+    padding-right: 49px;
+    padding-top: 24px;
+    padding-bottom: 32px;
 }
 
 .accordion__summary {
     display: block; 
-    padding: 24px 32px;
     cursor: pointer;
     font-weight: 400;
     font-size: 16px;
@@ -19,7 +22,7 @@
     display: none;
 }
 .accordion__content{
-    padding: 0 24px 24px;
+    padding-top: 16px;
 }
 
 .accordion__text {
@@ -27,6 +30,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    margin: 0;
 }
 
 .accordion__item {
