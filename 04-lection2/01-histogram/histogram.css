@@ -1,4 +1,4 @@
-.chart {
+.statistics {
     display: flex;
     flex-flow: row wrap;
     font-family: 'Inter';
@@ -10,11 +10,11 @@
     border-radius: 8px;
 }
 
-.chart__info {
+.statistics__info {
     flex-grow: 1;
 }
 
-.chart__title {
+.statistics__title {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -24,7 +24,7 @@
     opacity: 0.8;
 }
 
-.chart__digit {
+.statistics__digit {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +33,7 @@
     color: var(--black);
 }
 
-.chart__view {
+.statistics__view {
     padding-top: 3px;
     margin: 0;
     font-style: normal;
@@ -43,7 +43,7 @@
     color: var(--purple);
 }
 
-.histogram {
+.statistics__histogram {
     width: 100%;
     padding: 0;
     display: flex;
@@ -57,7 +57,7 @@
     margin-right: 5px;
 }
 
-.histogram__column {
+.statistics__histogram-column {
     background-color: var(--blue);
     flex-grow: 1;
 
