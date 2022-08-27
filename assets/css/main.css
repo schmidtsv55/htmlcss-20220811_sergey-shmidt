@@ -18,6 +18,7 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
+
 html, body{
     height: 100%;
 }
