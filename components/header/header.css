@@ -1,6 +1,15 @@
-.header{
-    
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
-.header__title{
 
+.header__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    margin: 0;
+    flex-basis: 1110px;
 }

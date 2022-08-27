@@ -1,3 +1,22 @@
-.preview{
-    
+.preview {
+    --background: #F9FAFC;
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+    padding-top: 68px;
+    padding-bottom: 204px;
 }
+
+.preview__items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-basis: 1110px
+}
+
+.preview__item {
+    width: 350px;
+    height: 367px;
+}
+

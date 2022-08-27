@@ -1,3 +1,28 @@
-.footer{
-    
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.footer__title {
+    margin-top: 71px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: var(--black);
+}
+
+.footer__description {
+    margin-top: 32px;
+    max-width: 640px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--black);
 }
