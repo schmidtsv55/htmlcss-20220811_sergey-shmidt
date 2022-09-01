@@ -1,3 +1,15 @@
-.preview{
-    
+.preview {
+    padding: 68px 0 92px;
+    background: var(--grey-5);
+}
+
+.preview__items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;    
+}
+
+.preview__item {
+    flex-basis: calc(100% / 3 - 20px);
+    height: 367px;
 }
