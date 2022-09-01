@@ -1,4 +1,6 @@
 .footer {
+    padding: 71px 0 136px;
+    background-color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +20,7 @@
 }
 
 .footer__description {
-    margin-top: 32px;
+    margin: 32px auto 0;
     max-width: 640px;
     font-weight: 400;
     font-size: 16px;

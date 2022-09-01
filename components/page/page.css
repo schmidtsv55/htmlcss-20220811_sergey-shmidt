@@ -4,14 +4,9 @@
     flex-direction: column;
 }
 
-.page__header {
-    flex-basis: 237px;
-}
+
 
 .page__preview {
     flex-grow: 1;
 }
 
-.page__footer {
-    flex-basis: 384px;
-}

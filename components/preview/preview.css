@@ -1,22 +1,15 @@
 .preview {
-    --background: #F9FAFC;
-    background: var(--background);
-    display: flex;
-    justify-content: center;
-    padding-top: 68px;
-    padding-bottom: 204px;
+    padding: 68px 0 92px;
+    background: var(--grey-5);
 }
 
 .preview__items {
     display: flex;
-    justify-content: center;
     gap: 30px;
-    flex-wrap: wrap;
-    flex-basis: 1110px
+    flex-wrap: wrap;    
 }
 
 .preview__item {
-    width: 350px;
+    flex-basis: calc(100% / 3 - 20px);
     height: 367px;
 }
-
