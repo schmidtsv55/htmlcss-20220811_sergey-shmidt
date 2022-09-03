@@ -1,0 +1,86 @@
+.component-page {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 38px;
+    background-color: var(--grey-5);
+}
+
+.component-page__header {
+    height: 82px;
+    background-color: var(--white);
+}
+
+
+
+.component-page__main-container{
+    width: 100%
+}
+.component-page__main {    
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 56px;
+    height: 100%;
+}
+
+
+.component-page__main-menu {
+    width: 229px;
+    display: flex;
+    flex-direction: column;
+}
+
+.component-page__main-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--max-black);
+    margin: 0 0 16px;
+}
+
+.component-page__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.component-page__link {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.component-page__link_main {
+    margin-top: 30px;
+}
+
+.component-page__link_active {
+    color: var(--notification);
+}
+
+.component-page__main-component {
+    background-color: var(--white);
+}
+
+.component-page__footer {
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
