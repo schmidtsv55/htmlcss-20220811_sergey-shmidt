@@ -31,7 +31,7 @@
     height: 24px;
     top: 50%;
     right: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-12px);
     background: var(--grey-2);
     border-radius: 16px;
 }
@@ -52,8 +52,7 @@
 }
 
 .toggle__input:checked~.toggle__state .toggle__control .toggle__control-lever {
-    left: 50%;
-    right: 0;
+    transform: translate(24px, -12px);
     background-color: var(--white);
 }
 
