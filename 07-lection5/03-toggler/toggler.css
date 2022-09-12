@@ -29,9 +29,7 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    top: 50%;
-    right: 50%;
-    transform: translateY(-12px);
+    transform: translate(1px, 1px);
     background: var(--grey-2);
     border-radius: 16px;
 }
@@ -48,11 +46,11 @@
 .toggle__input:checked~.toggle__state .toggle__control {
     background-color: var(--checked);
     border-width: 2px;
-    border: var(--checked);
+    border: 1px solid var(--checked);
 }
 
 .toggle__input:checked~.toggle__state .toggle__control .toggle__control-lever {
-    transform: translate(24px, -12px);
+    transform: translate(25px, 1px);
     background-color: var(--white);
 }
 
@@ -62,7 +60,7 @@
 
 .toggle__input:disabled~.toggle__state .toggle__control {
     background-color: var(--grey-2);
-    border: var(--grey-2);
+    border: 1px solid var(--grey-2);
 }
 
 .toggle__input:disabled~.toggle__state .toggle__control .toggle__control-lever {
