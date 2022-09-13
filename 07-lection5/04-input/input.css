@@ -1,0 +1,80 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text__control {  
+    height: 56px;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 18px;
+}
+
+.text__input {
+    width: 100%;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-4);
+}
+
+.text__input::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-2);
+}
+
+.text__input:focus {
+    outline: none;
+}
+
+.text__control:focus-within {
+    border: 1px solid var(--blue-2);
+    box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.text_invalid .text__control:focus-within {
+    border: 1px solid var(--red);
+    box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+}
+
+.text__label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
+
+.text__icon {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+.text_success .text__control .text__icon_success {
+    visibility: visible;
+    height: auto;
+    width: auto;
+}
+
+.text_invalid .text__control .text__icon_invalid {
+    visibility: visible;
+    height: auto;
+    width: auto;
+}
